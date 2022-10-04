@@ -1,0 +1,20 @@
+pw:api => browserType.launch started +0ms
+pw:api <= browserType.launch succeeded +6s
+pw:api => browser.newContext started +12ms
+pw:api <= browser.newContext succeeded +119ms
+pw:api => browserContext.newPage started +5ms
+pw:api <= browserContext.newPage succeeded +3s
+pw:api => page.goto started +9ms
+pw:api navigating to "https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152", waiting until "domcontentloaded" +15ms
+pw:api <= page.goto failed +2m
+node:internal/process/promises:279
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+page.goto: Timeout 120000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152", waiting until "domcontentloaded"
+============================================================
+    at /Playwright-Testing/index.js:11:14 {
+  name: 'TimeoutError'
+}

@@ -1,0 +1,274 @@
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'BrowserType',
+pw:channel:event     initializer: {
+pw:channel:event       executablePath: '/root/.cache/ms-playwright/chromium-1024/chrome-linux/chrome',
+pw:channel:event       name: 'chromium'
+pw:channel:event     },
+pw:channel:event     guid: 'browser-type@87b186b7ad2985b15f6d2caf9539bc08'
+pw:channel:event   }
+pw:channel:event } +0ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'BrowserType',
+pw:channel:event     initializer: {
+pw:channel:event       executablePath: '/root/.cache/ms-playwright/firefox-1350/firefox/firefox',
+pw:channel:event       name: 'firefox'
+pw:channel:event     },
+pw:channel:event     guid: 'browser-type@24960e0a5662825c08e7f58c6a5c6da0'
+pw:channel:event   }
+pw:channel:event } +19ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'BrowserType',
+pw:channel:event     initializer: {
+pw:channel:event       executablePath: '/root/.cache/ms-playwright/webkit-1715/pw_run.sh',
+pw:channel:event       name: 'webkit'
+pw:channel:event     },
+pw:channel:event     guid: 'browser-type@0a0f44560e643795a71f50245cc8725d'
+pw:channel:event   }
+pw:channel:event } +2ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Android',
+pw:channel:event     initializer: {},
+pw:channel:event     guid: 'android@268b74d784dc650718e694ebc2559ea1'
+pw:channel:event   }
+pw:channel:event } +5ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Electron',
+pw:channel:event     initializer: {},
+pw:channel:event     guid: 'electron@787d9ef70255e11a2fa718c5cf4cb5e5'
+pw:channel:event   }
+pw:channel:event } +3ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'LocalUtils',
+pw:channel:event     initializer: {},
+pw:channel:event     guid: 'localUtils@90777f4b5538adb1dfa92a52c797b56a'
+pw:channel:event   }
+pw:channel:event } +6ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Selectors',
+pw:channel:event     initializer: {},
+pw:channel:event     guid: 'selectors@fefb14acd70bc208dcdea62a41cb5d0b'
+pw:channel:event   }
+pw:channel:event } +3ms
+pw:channel:event {
+pw:channel:event   guid: '',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Playwright',
+pw:channel:event     initializer: {
+pw:channel:event       chromium: [Object],
+pw:channel:event       firefox: [Object],
+pw:channel:event       webkit: [Object],
+pw:channel:event       android: [Object],
+pw:channel:event       electron: [Object],
+pw:channel:event       utils: [Object],
+pw:channel:event       deviceDescriptors: [Array],
+pw:channel:event       selectors: [Object]
+pw:channel:event     },
+pw:channel:event     guid: 'Playwright'
+pw:channel:event   }
+pw:channel:event } +14ms
+pw:channel:command {
+pw:channel:command   id: 1,
+pw:channel:command   guid: 'browser-type@0a0f44560e643795a71f50245cc8725d',
+pw:channel:command   method: 'launch',
+pw:channel:command   params: { ignoreAllDefaultArgs: false, headless: true }
+pw:channel:command } +0ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-type@0a0f44560e643795a71f50245cc8725d',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Browser',
+pw:channel:event     initializer: { version: '16.0', name: 'webkit' },
+pw:channel:event     guid: 'browser@7c9cab7ba630ced1b262dbd2e09414f8'
+pw:channel:event   }
+pw:channel:event } +3s
+pw:channel:response {
+pw:channel:response   id: 1,
+pw:channel:response   result: { browser: { guid: 'browser@7c9cab7ba630ced1b262dbd2e09414f8' } }
+pw:channel:response } +0ms
+pw:channel:command {
+pw:channel:command   id: 2,
+pw:channel:command   guid: 'browser@7c9cab7ba630ced1b262dbd2e09414f8',
+pw:channel:command   method: 'newContext',
+pw:channel:command   params: {
+pw:channel:command     noDefaultViewport: false,
+pw:channel:command     userAgent: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36'
+pw:channel:command   }
+pw:channel:command } +3s
+pw:channel:event {
+pw:channel:event   guid: 'browser@7c9cab7ba630ced1b262dbd2e09414f8',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Tracing',
+pw:channel:event     initializer: {},
+pw:channel:event     guid: 'tracing@31d21af619c78cd997b392ee7dba1bd1'
+pw:channel:event   }
+pw:channel:event } +151ms
+pw:channel:event {
+pw:channel:event   guid: 'browser@7c9cab7ba630ced1b262dbd2e09414f8',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'APIRequestContext',
+pw:channel:event     initializer: { tracing: [Object] },
+pw:channel:event     guid: 'request-context@271b4225a22e7c14058ea6a5dc9a4a5d'
+pw:channel:event   }
+pw:channel:event } +8ms
+pw:channel:event {
+pw:channel:event   guid: 'request-context@271b4225a22e7c14058ea6a5dc9a4a5d',
+pw:channel:event   method: '__adopt__',
+pw:channel:event   params: { guid: 'tracing@31d21af619c78cd997b392ee7dba1bd1' }
+pw:channel:event } +8ms
+pw:channel:event {
+pw:channel:event   guid: 'browser@7c9cab7ba630ced1b262dbd2e09414f8',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'BrowserContext',
+pw:channel:event     initializer: { isChromium: false, requestContext: [Object], tracing: [Object] },
+pw:channel:event     guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda'
+pw:channel:event   }
+pw:channel:event } +3ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: '__adopt__',
+pw:channel:event   params: { guid: 'request-context@271b4225a22e7c14058ea6a5dc9a4a5d' }
+pw:channel:event } +7ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: '__adopt__',
+pw:channel:event   params: { guid: 'tracing@31d21af619c78cd997b392ee7dba1bd1' }
+pw:channel:event } +6ms
+pw:channel:response {
+pw:channel:response   id: 2,
+pw:channel:response   result: {
+pw:channel:response     context: { guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda' }
+pw:channel:response   }
+pw:channel:response } +185ms
+pw:channel:command {
+pw:channel:command   id: 3,
+pw:channel:command   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:command   method: 'newPage',
+pw:channel:command   params: undefined
+pw:channel:command } +195ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Frame',
+pw:channel:event     initializer: { url: 'about:blank', name: '', loadStates: [Array] },
+pw:channel:event     guid: 'frame@33dd8f47436361ce8ade22b24f8eda1f'
+pw:channel:event   }
+pw:channel:event } +3s
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Page',
+pw:channel:event     initializer: { mainFrame: [Object], viewportSize: [Object], isClosed: false },
+pw:channel:event     guid: 'page@05e877032afbbe3ae14d82071f704860'
+pw:channel:event   }
+pw:channel:event } +6ms
+pw:channel:event {
+pw:channel:event   guid: 'page@05e877032afbbe3ae14d82071f704860',
+pw:channel:event   method: '__adopt__',
+pw:channel:event   params: { guid: 'frame@33dd8f47436361ce8ade22b24f8eda1f' }
+pw:channel:event } +8ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: 'page',
+pw:channel:event   params: { page: { guid: 'page@05e877032afbbe3ae14d82071f704860' } }
+pw:channel:event } +1ms
+pw:channel:response {
+pw:channel:response   id: 3,
+pw:channel:response   result: { page: { guid: 'page@05e877032afbbe3ae14d82071f704860' } }
+pw:channel:response } +3s
+pw:channel:command {
+pw:channel:command   id: 4,
+pw:channel:command   guid: 'frame@33dd8f47436361ce8ade22b24f8eda1f',
+pw:channel:command   method: 'goto',
+pw:channel:command   params: {
+pw:channel:command     url: 'https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152',
+pw:channel:command     timeout: 120000,
+pw:channel:command     waitUntil: 'domcontentloaded'
+pw:channel:command   }
+pw:channel:command } +3s
+pw:channel:event {
+pw:channel:event   guid: 'frame@33dd8f47436361ce8ade22b24f8eda1f',
+pw:channel:event   method: 'loadstate',
+pw:channel:event   params: { add: 'networkidle' }
+pw:channel:event } +98ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: '__create__',
+pw:channel:event   params: {
+pw:channel:event     type: 'Request',
+pw:channel:event     initializer: {
+pw:channel:event       frame: [Object],
+pw:channel:event       url: 'https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152',
+pw:channel:event       resourceType: 'document',
+pw:channel:event       method: 'GET',
+pw:channel:event       headers: [Array],
+pw:channel:event       isNavigationRequest: true
+pw:channel:event     },
+pw:channel:event     guid: 'request@3928acaccfb91b9e4fe19d2d7cc32eaa'
+pw:channel:event   }
+pw:channel:event } +532ms
+pw:channel:event {
+pw:channel:event   guid: 'browser-context@6d95b877e137deb0a35653cc4176dcda',
+pw:channel:event   method: 'request',
+pw:channel:event   params: {
+pw:channel:event     request: { guid: 'request@3928acaccfb91b9e4fe19d2d7cc32eaa' },
+pw:channel:event     page: { guid: 'page@05e877032afbbe3ae14d82071f704860' }
+pw:channel:event   }
+pw:channel:event } +7ms
+pw:channel:response {
+pw:channel:response   id: 4,
+pw:channel:response   error: {
+pw:channel:response     error: {
+pw:channel:response       message: 'Timeout 120000ms exceeded.\n' +
+pw:channel:response         '=========================== logs ===========================\n' +
+pw:channel:response         'navigating to "https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152", waiting until "domcontentloaded"\n' +
+pw:channel:response         '============================================================',
+pw:channel:response       stack: 'TimeoutError: Timeout 120000ms exceeded.\n' +
+pw:channel:response         '=========================== logs ===========================\n' +
+pw:channel:response         'navigating to "https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152", waiting until "domcontentloaded"\n' +
+pw:channel:response         '============================================================\n' +
+pw:channel:response         '    at ProgressController.run (/Playwright-Testing/node_modules/playwright-core/lib/server/progress.js:96:26)\n' +
+pw:channel:response         '    at Frame.goto (/Playwright-Testing/node_modules/playwright-core/lib/server/frames.js:702:23)\n' +
+pw:channel:response         '    at FrameDispatcher.goto (/Playwright-Testing/node_modules/playwright-core/lib/server/dispatchers/frameDispatcher.js:87:77)\n' +
+pw:channel:response         '    at DispatcherConnection.dispatch (/Playwright-Testing/node_modules/playwright-core/lib/server/dispatchers/dispatcher.js:401:46)',
+pw:channel:response       name: 'TimeoutError'
+pw:channel:response     }
+pw:channel:response   }
+pw:channel:response } +2m
+node:internal/process/promises:279
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+page.goto: Timeout 120000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152", waiting until "domcontentloaded"
+============================================================
+    at /Playwright-Testing/index.js:11:14 {
+  name: 'TimeoutError'
+}

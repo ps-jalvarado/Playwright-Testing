@@ -1,0 +1,18 @@
+pw:browser <launching> /root/.cache/ms-playwright/webkit-1715/pw_run.sh --inspector-pipe --headless --no-startup-window +0ms
+pw:browser <launched> pid=2272 +21ms
+pw:browser [pid=2272][err] Could not determine the accessibility bus address +2s
+pw:browser [pid=2272] <kill> +2m
+pw:browser [pid=2272] <will force kill> +9ms
+pw:browser [pid=2272] starting temporary directories cleanup +4ms
+pw:browser [pid=2272] finished temporary directories cleanup +1s
+node:internal/process/promises:279
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+page.goto: Timeout 120000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.homedepot.com/p/Simpson-Strong-Tie-9-x-1-1-2-in-1-4-Hex-Drive-Strong-Drive-SD-Connector-Screw-100-Pack-SD9112R100/202071152", waiting until "domcontentloaded"
+============================================================
+    at /Playwright-Testing/index.js:11:14 {
+  name: 'TimeoutError'
+}

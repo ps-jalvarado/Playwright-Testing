@@ -1,0 +1,22 @@
+{
+  "name": "playwright-testing",
+  "version": "1.0.0",
+  "description": "Repo to try and fix home depot webkit headless issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps-jalvarado/Playwright-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ps-jalvarado/Playwright-Testing/issues"
+  },
+  "homepage": "https://github.com/ps-jalvarado/Playwright-Testing#readme",
+  "dependencies": {
+    "playwright": "^1.26.1"
+  }
+}
